@@ -1,4 +1,4 @@
-module axi_stream_processor_tb;
+module tb_axi;
     // Parameters
     parameter TDATA_WIDTH = 32;
     parameter CLK_PERIOD = 10;
