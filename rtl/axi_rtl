@@ -1,4 +1,4 @@
-module axi_stream_processor #(
+module axi_rtl#(
     parameter TDATA_WIDTH = 32,  // AXI-Stream data width (32 or 64 bits)
     parameter MODE_WIDTH = 2     // Mode selection width (0: pass-through, 1: byte reversal, 2: add constant)
 ) (
