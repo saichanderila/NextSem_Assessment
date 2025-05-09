@@ -25,7 +25,7 @@ module tb_axi;
     reg [TDATA_WIDTH-1:0] constant_value;
 
     // Instantiate DUT
-    axi_stream_processor #(
+    axi_rtl #(
         .TDATA_WIDTH(TDATA_WIDTH)
     ) dut (
         .aclk(clk),
